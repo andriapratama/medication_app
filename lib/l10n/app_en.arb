@@ -3,5 +3,121 @@
   "appTitle": "Medication Reference",
   "@appTitle": {
     "description": "Title of the application"
+  },
+  "medicationListTitle": "Medications",
+  "@medicationListTitle": {
+    "description": "Title of the medication list screen"
+  },
+  "emptyStateMessage": "No medications found",
+  "@emptyStateMessage": {
+    "description": "Shown when a list request succeeds but returns no results"
+  },
+  "errorRetryButton": "Retry",
+  "@errorRetryButton": {
+    "description": "Button label to retry a failed request"
+  },
+  "medicationNameUnavailable": "Name unavailable",
+  "@medicationNameUnavailable": {
+    "description": "Placeholder when brand/generic name is missing from openFDA data"
+  },
+  "manufacturerUnavailable": "Manufacturer unknown",
+  "@manufacturerUnavailable": {
+    "description": "Placeholder when manufacturer name is missing from openFDA data"
+  },
+  "bottomNavMedications": "Medications",
+  "@bottomNavMedications": {
+    "description": "Bottom navigation label for the medication list tab"
+  },
+  "bottomNavFavorites": "Favorites",
+  "@bottomNavFavorites": {
+    "description": "Bottom navigation label for the favorites tab"
+  },
+  "favoritesScreenTitle": "Favorites",
+  "@favoritesScreenTitle": {
+    "description": "Title of the favorites screen"
+  },
+  "favoritesEmpty": "No favorites yet. Tap the star on a medication's detail page to save it here.",
+  "@favoritesEmpty": {
+    "description": "Empty state on the favorites tab"
+  },
+  "favoritesRemoved": "Removed from favorites",
+  "@favoritesRemoved": {
+    "description": "SnackBar shown after swiping a favorite away"
+  },
+  "favoritesRemoveFailed": "Couldn't remove from favorites. Please try again.",
+  "@favoritesRemoveFailed": {
+    "description": "SnackBar shown when removing a favorite fails"
+  },
+  "searchHint": "Search by name, brand, or active ingredient",
+  "@searchHint": {
+    "description": "Placeholder text in the medication search field"
+  },
+  "searchClear": "Clear search",
+  "@searchClear": {
+    "description": "Tooltip/accessibility label for the button that clears the search field"
+  },
+  "errorNetwork": "No internet connection. Check your connection and try again.",
+  "@errorNetwork": {
+    "description": "Shown for NetworkFailure"
+  },
+  "errorServer": "The server is having problems. Please try again later.",
+  "@errorServer": {
+    "description": "Shown for ServerFailure (5xx)"
+  },
+  "errorRateLimit": "Too many requests. Please wait a moment and try again.",
+  "@errorRateLimit": {
+    "description": "Shown for RateLimitFailure (HTTP 429)"
+  },
+  "errorInvalidData": "The data received could not be read.",
+  "@errorInvalidData": {
+    "description": "Shown for InvalidDataFailure"
+  },
+  "errorUnknown": "Something went wrong. Please try again.",
+  "@errorUnknown": {
+    "description": "Shown for UnknownFailure"
+  },
+  "detailBack": "Back",
+  "@detailBack": {
+    "description": "Back button label on the detail screen"
+  },
+  "detailAddFavorite": "Add to favorites",
+  "@detailAddFavorite": {
+    "description": "Tooltip for the star button when the medication is not a favorite"
+  },
+  "detailRemoveFavorite": "Remove from favorites",
+  "@detailRemoveFavorite": {
+    "description": "Tooltip for the star button when the medication is a favorite"
+  },
+  "badgeOtc": "OTC",
+  "@badgeOtc": {
+    "description": "Badge for over-the-counter medications"
+  },
+  "badgePrescription": "Rx",
+  "@badgePrescription": {
+    "description": "Badge for prescription-only medications"
+  },
+  "sectionPurpose": "Purpose",
+  "@sectionPurpose": {
+    "description": "Detail section title for purpose / indications and usage"
+  },
+  "sectionDosage": "Dosage & Administration",
+  "@sectionDosage": {
+    "description": "Detail section title for dosage and administration"
+  },
+  "sectionActiveIngredients": "Active Ingredients",
+  "@sectionActiveIngredients": {
+    "description": "Detail section title for active ingredients"
+  },
+  "sectionWarnings": "Warnings",
+  "@sectionWarnings": {
+    "description": "Detail section title for warnings"
+  },
+  "sectionInactiveIngredients": "Inactive Ingredients",
+  "@sectionInactiveIngredients": {
+    "description": "Detail section title for inactive ingredients"
+  },
+  "medicalDisclaimer": "This information is for technical reference only and is not a substitute for professional medical advice.",
+  "@medicalDisclaimer": {
+    "description": "Disclaimer pinned at the bottom of the detail screen"
   }
 }
