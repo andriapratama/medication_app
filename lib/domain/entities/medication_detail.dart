@@ -9,7 +9,7 @@ class MedicationDetail extends Equatable {
   final String? manufacturer;
   final MedicationType? type;
   final String? purpose;
-  final String? indicationsAddUsage;
+  final String? indicationsAndUsage;
   final String? dosageAndAdministration;
   final String? warnings;
   final List<String> activeIngredients;
@@ -23,7 +23,7 @@ class MedicationDetail extends Equatable {
     this.manufacturer,
     this.type,
     this.purpose,
-    this.indicationsAddUsage,
+    this.indicationsAndUsage,
     this.dosageAndAdministration,
     this.warnings,
     this.activeIngredients = const [],
@@ -39,7 +39,7 @@ class MedicationDetail extends Equatable {
       manufacturer: manufacturer,
       type: type,
       purpose: purpose,
-      indicationsAddUsage: indicationsAddUsage,
+      indicationsAndUsage: indicationsAndUsage,
       dosageAndAdministration: dosageAndAdministration,
       warnings: warnings,
       activeIngredients: activeIngredients,
@@ -56,7 +56,7 @@ class MedicationDetail extends Equatable {
     manufacturer,
     type,
     purpose,
-    indicationsAddUsage,
+    indicationsAndUsage,
     dosageAndAdministration,
     warnings,
     activeIngredients,
